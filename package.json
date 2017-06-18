@@ -5,22 +5,22 @@
   "scripts": {
     "ng": "ng",
     "start": "node Server.js",
-    "test": "ng test",    
+    "test": "ng test",
     "e2e": "protractor",
     "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
-    "@angular/cli": "1.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0",
-    "@angular/http": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@angular/router": "^4.0.0",
+    "@angular/cli": "1.0.2",
+    "@angular/compiler-cli": "4.2.3",
+    "@angular/common": "4.2.3",
+    "@angular/compiler": "4.2.3",
+    "@angular/core": "4.2.3",
+    "@angular/forms": "4.2.3",
+    "@angular/http": "4.2.3",
+    "@angular/platform-browser": "4.2.3",
+    "@angular/platform-browser-dynamic": "4.2.3",
+    "@angular/router": "4.2.3",
     "core-js": "^2.4.1",
     "express": "^4.15.3",
     "rxjs": "^5.1.0",
@@ -43,7 +43,7 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0"
   },
-   "engines": {
+  "engines": {
     "node": "7.8.0",
     "npm": "5.0.3"
   }
