@@ -6,8 +6,8 @@ const app = express();
 // a protocol other than HTTPS,
 // redirect that request to the
 // same url but with HTTPS
-//const forceSSL = function() {
-/*  return function (req, res, next) {
+const forceSSL = function() {
+ return function (req, res, next) {
     if (req.headers['x-forwarded-proto'] !== 'https') {
       return res.redirect(['https://', req.get('Host'), req.url].join(''));
     }
@@ -19,7 +19,7 @@ const app = express();
 // to use the forceSSL
 // middleware
 app.use(forceSSL());
-*/
+
 // Run the app by serving the static files
 // in the dist directory
 app.use(express.static(__dirname + '/dist'));
